@@ -27,6 +27,10 @@ s.author           = { 'ralitsapetyova' => 'ralitsa.p@droxic.com' }
 s.source           = { :git => 'https://github.com/ralitsapetyova/testRepo.git', :tag => s.version.to_s, :submodules => true }
 
 s.ios.deployment_target = '9.0'
-s.source_files = 'TestPod/Classes/Contour/**/*'
+s.source_files =
+    'TestPod/Classes/Contour/include/contour/*.{h,cpp}',
+    'TestPod/Classes/Contour/*.{h,c}'
+s.public_header_files = 'TestPod/Classes/Contour/include/contour/**/*.h'
+s.header_mappings_dir = 'TestPod/Classes/Contour'
 
 end
