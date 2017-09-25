@@ -1,0 +1,3 @@
+[submodule "TestPod/TestPod/Classes/Contour"]
+	path = TestPod/TestPod/Classes/Contour
+	url = git@github.com:Ekahau/contour-cpp.git
