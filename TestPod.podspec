@@ -31,6 +31,5 @@ s.source_files =
     'TestPod/Classes/Contour/include/contour/*.{h,cpp}',
     'TestPod/Classes/Contour/*.{h,c}'
 s.public_header_files = 'TestPod/Classes/Contour/include/contour/**/*.h'
-s.header_mappings_dir = 'TestPod/Classes/Contour'
 
 end
